@@ -18,9 +18,9 @@ print('Una altra pregunta: quants jocs de la play tens?')
 numCats=raw_input()
 try:
     if int(numCats)>=4:
-        print ('Caram! quants jocs. Que mimat! Segur que et vicies molta estona!')
+        print ('Caram! quants jocs. Què mimat! Segur que et vicies molta estona!')
     else:
-        print('que poquets! Molt bé, així no et distreus tant i estudies més')
+        print('què poquets! Molt bé, així no et distreus tant i estudies més')
 except ValueError:
     print('això no és cap número xavalet!')
 import random
