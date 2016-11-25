@@ -15,12 +15,12 @@ print('Molt bé. Sabies que quan hagin passat 10 anys tindràs '+str(int(myAge)+
 raw_input('')
 print('OK. Com veus, sé moltes coses de tu '+myName+'!')
 print('Una altra pregunta: quants jocs de la play tens?')
-numCats=raw_input()
+numJocs=raw_input()
 try:
-    if int(numCats)>=4:
-        print ('Caram! quants jocs. Què mimat! Segur que et vicies molta estona!')
+    if int(numJocs)>=4:
+        print ('Caram! quants jocs. Que mimat! Segur que et vicies molta estona!')
     else:
-        print('què poquets! Molt bé, així no et distreus tant i estudies més')
+        print('que poquets! Molt bé, així no et distreus tant i estudies més')
 except ValueError:
     print('això no és cap número xavalet!')
 import random
